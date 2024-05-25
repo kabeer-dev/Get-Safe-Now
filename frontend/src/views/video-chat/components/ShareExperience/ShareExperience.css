@@ -1,0 +1,110 @@
+.maincontent {
+  background-color: white;
+  border: 1px solid white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  padding: 50px;
+}
+.contentborder {
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  width: 100%;
+  height: 100%;
+}
+.column_border {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.contentstyle {
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  width: 40%;
+  height: 78vh;
+  padding: 25px;
+}
+.button_center {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.button_center_start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.button {
+  background-color: #02b100; /* Green */
+  border: none;
+  color: white;
+  padding: 6px 38px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button1 {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.button_center_space {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  margin-top: 20px;
+}
+.txt_center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.txt_column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e1ffe1;
+  border-radius: 3px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  padding: 8px 5px 8px 5px;
+  margin-top: 25px;
+}
+.border_style {
+  background-color: #e1ffe1;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  padding: 5px 16px 5px 16px;
+}
+.star {
+  width: 100%;
+  letter-spacing: 5px;
+}
+.placeholderstyle {
+  padding: 10px;
+  border-radius: 4px;
+  border-color: #cbcbcb;
+  border-width: 1px;
+}
+.txt_end {
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+  padding-right: 22px;
+}

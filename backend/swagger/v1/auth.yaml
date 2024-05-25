@@ -1,0 +1,234 @@
+
+paths:
+  /auth/sign-up:
+    post:
+      tags:
+        - User
+      summary: Signup User to go to Mail vareification..
+      
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  description: User's email address.
+                password:
+                  type: string
+                  description: User's password that have atleat 1 Capital, 1 small, 1 special and 1 number.
+
+                # nickname:
+                #   type: string
+
+                # firstName:
+                #   type: string
+                # lastName:
+                #   type: string
+               
+        
+                # nickname:
+                #   type: string
+
+                # firstName:
+                #   type: string
+                # lastName:
+                #   type: string
+               
+        
+              required:
+                - email
+                - password
+                # - nickname
+                # - firstName
+                # - lastName
+           
+      responses:
+        "200":
+          description: OK
+
+        '400':
+          description: Bad Request
+          
+        '404':
+          description: Not Found
+         
+        '500':
+          description: Internal Server Error
+
+  /auth/login:
+
+
+  /login:
+    post:
+      tags:
+        - User Login API
+      summary: Login User to go in dashboard.
+      
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  description: User's email address.
+                password:
+                  type: string
+                  description: User's password.
+              required:
+                - email
+                - password
+           
+      responses:
+        '200':
+          description: OK
+
+        '400':
+          description: Bad Request
+          
+        '404':
+          description: Not Found
+         
+        '500':
+          description: Internal Server Error
+
+
+  /auth/verify_email:
+    post:
+      tags:
+        - User verify Email Api
+      summary: Enter code to verify User email.
+      
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                id:
+                  type: integer
+                  description: User's id.
+                verificationCode:
+                  type: integer
+                  description: User's verification code.
+              required:
+                - id
+                - verification_code
+           
+      responses:
+        '200':
+          description: OK
+
+        '400':
+          description: Bad Request
+          
+        '404':
+          description: Not Found
+         
+        '500':
+          description: Internal Server Error
+
+
+          
+  /auth/resend_verification_code:
+    post:
+      tags:
+        - User Resend Verification code
+      summary: Resend Verification code to user's email for verify email.
+      
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                id:
+                  type: integer
+                  description: User's id.
+              required:
+                - id
+           
+      responses:
+        '200':
+          description: OK
+
+        '400':
+          description: Bad Request
+          
+        '404':
+          description: Not Found
+         
+        '500':
+          description: Internal Server Erro
+      
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                id:
+                  type: integer
+                  description: User's id.
+                verificationCode:
+                  type: integer
+                  description: User's verification code.
+              required:
+                - id
+                - verification_code
+           
+      responses:
+        '200':
+          description: OK
+
+        '400':
+          description: Bad Request
+          
+        '404':
+          description: Not Found
+         
+        '500':
+          description: Internal Server Error
+
+
+          
+  /auth/resend_verification_code:
+    post:
+      tags:
+        - User Resend Verification code
+      summary: Resend Verification code to user's email for verify email.
+      
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                id:
+                  type: integer
+                  description: User's id.
+              required:
+                - id
+           
+      responses:
+        '200':
+          description: OK
+
+        '400':
+          description: Bad Request
+          
+        '404':
+          description: Not Found
+         
+        '500':
+          description: Internal Server Erro
+      

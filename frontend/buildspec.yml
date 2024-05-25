@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - echo Copying .env.main into .env
+      - cp .env.main .env
+      - echo Installing node modules
+      - npm install
+  build:
+    commands:
+      - echo Building project
+      - npm run build
+artifacts:
+  files:
+    - '**/*'
+  discard-paths: no
+  base-directory: build

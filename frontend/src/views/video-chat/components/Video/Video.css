@@ -1,0 +1,1554 @@
+* {
+  font-family: "Roboto";
+}
+
+.d-none{
+  display: none;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+  justify-content: center;
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.input_msg {
+  font-family: "Roboto";
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+}
+
+.card {
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid #000;
+  border-image-slice: 1;
+  padding: 10px 0;
+}
+
+.video-you h3,
+.video-me h3 {
+  color: #000000;
+}
+
+
+
+/*....video-you..video..video-avatar-container..video-active...bottom-icons..iconsDiv..icons..........*/
+.video-you {
+  background-color: #000000;
+  background: linear-gradient(to bottom, #000000, #000000);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh !important;
+  width: 100vw !important;
+  align-items: center;
+  margin-bottom: 0px !important;
+  z-index: 99999;
+}
+
+.video-you video {
+  border-radius: 6px;
+  height: 100vh !important;
+}
+
+.video-you .video-avatar-container {
+  position: absolute;
+  width: 100%;
+}
+
+.video-avatar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 147px;
+}
+
+.video-avatar-containerOne {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 120px;
+}
+
+.video-active1 {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+.video-active {
+  background-color: #000000;
+  background: linear-gradient(to bottom, #000000, #000000);
+}
+
+.bottom-icons {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.iconsDiv {
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 0;
+  margin: auto;
+  max-width: 305px;
+}
+
+.iconsDiv2 {
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 0;
+  margin: auto;
+  max-width: 555px;
+  padding: 8px 5px 8px 5px;
+}
+
+.iconsDiv > div {
+  --size: 3rem;
+  width: var(--size);
+  height: var(--size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconsDiv2 > div {
+  --size: 3rem;
+  width: var(--size);
+  height: var(--size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-Text {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.top-wave {
+  width: 100%;
+  margin: 0;
+}
+
+.video-me {
+  position: absolute;
+  right: 10px;
+  bottom: 115px;
+  width: 25%;
+  max-width: 300px;
+  z-index: 999999;
+  overflow: hidden;
+}
+
+.video-me video {
+  width: 100%;
+  height: auto;
+}
+
+.icons {
+  background-color: #083d14;
+  border-radius: 50%;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.34);
+  transition: box-shadow 0.3s ease-in-out;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.icons > * {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  filter: invert(1);
+}
+
+.icons:active {
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.19);
+}
+
+.icons:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.icons3 {
+  background-color: #ffffff;
+  border-radius: 60%;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.34);
+  transition: box-shadow 0.3s ease-in-out;
+  font-size: 1.8rem;
+  color: #ffffff;
+  padding: 0px 13px;
+}
+
+.icons2 {
+  background-color: #ffffff;
+  border-radius: 60%;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.34);
+  transition: box-shadow 0.3s ease-in-out;
+  font-size: 1.8rem;
+  color: #ffffff;
+  padding: 0px 13px;
+}
+
+.icons2 > * {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.icons2:active {
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.19);
+}
+
+.icons2:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.mobilescreen{
+  display: none
+}
+
+.profileImg {
+  width: 200px !important;
+  height: 200px !important;
+  margin-top: 10px !important;
+}
+/*.....................................end..................................................... */
+
+/*.......................................textstyles............................................. */
+.textstyle1 {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 2px;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: auto;
+  border-radius: 5px;
+}
+.textstyle2 {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 2px;
+  letter-spacing: 1px;
+  width: 100%;
+  font-weight: 800;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.textstyle3 {
+  color: #fff;
+  padding: 2px;
+  width: 73%;
+  margin: 0 auto;
+  margin-top: 8px;
+  border-radius: 5px;
+  border: 0px solid #fff;
+}
+.textstyle4 {
+  color: #fff;
+  padding: 2px;
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 6px;
+  border-radius: 5px;
+  border: 0px solid #fff;
+}
+
+.incomingcall {
+  /* margin-top: 10px; */
+  align-items: center;
+}
+
+.disabled {
+  background-color: #727272;
+}
+.imagewebstyle {
+  margin-top: 10px;
+  align-items: center;
+}
+/*.....................................end.................................................. */
+
+/*.....................................Secondtextstyle......................................... */
+.Secondtextstyle1 {
+  color: #02b100;
+  padding: 2px;
+  width: 100%;
+  margin: 0 auto;
+}
+.Secondtextstyle2 {
+  color: #000;
+  border: 1px solid #8bf88a;
+  background-color: rgba(139, 248, 138, 0.5);
+  padding: 2px;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 4px;
+  border-radius: 5px;
+}
+.Secondtextstyle3 {
+  color: #fff;
+  padding: 2px;
+  width: 100%;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 8px;
+}
+.Secondtextstyle4 {
+  color: #fff;
+  border: 1px solid #8bf88a;
+  background-color: rgba(139, 248, 138, 0.5);
+  padding: 2px;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 12px;
+  border-radius: 5px;
+}
+.Secondtextstyle5 {
+  color: #fff;
+  padding: 2px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 6px;
+}
+.Secondtextstyle6 {
+  color: #fff;
+  border: 1px solid #8bf88a;
+  background-color: rgba(139, 248, 138, 0.5);
+  padding: 2px;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 14px;
+  border-radius: 5px;
+}
+.Secondtextstyle7 {
+  color: #fff;
+  padding: 2px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 8px;
+}
+.Secondtextstyle8 {
+  color: #fff;
+  padding: 2px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 2px;
+}
+.hrborderwidth {
+  border-color: #8bf88a;
+}
+.logowidth {
+  display: flex !important;
+  width: 100% !important;
+  justify-content: center !important;
+  flex-direction: row !important;
+}
+
+/*.....................................end.................................................. */
+@keyframes bouncing-loader {
+  to {
+    opacity: 0.1;
+    transform: translate3d(0, -16px, 0);
+  }
+}
+
+.bouncing-loader {
+  display: flex;
+  justify-content: center;
+  margin: 5rem auto;
+  border: 0px solid black;
+}
+
+.bouncing-loader > div {
+  width: 16px;
+  height: 16px;
+  margin: 3rem 0.2rem;
+  background: #fefefe;
+  border-radius: 50%;
+  animation: bouncing-loader 0.6s infinite alternate;
+}
+
+.bouncing-loader > div:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.bouncing-loader > div:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.img_illus {
+  height: 15rem;
+}
+
+.chat_img_div {
+  display: grid;
+  place-items: center;
+}
+
+.msg_flex > div {
+  border-style: none;
+  border-radius: 14px;
+  letter-spacing: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 0.6rem;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.19);
+}
+
+.msg_sent {
+  align-self: flex-end;
+  background-color: #02b100;
+  background: linear-gradient(to bottom, #02b100, #02b100);
+  border: 1px solid #02b100;
+  color: #ffffff;
+  border-bottom-right-radius: 0px !important;
+  text-align: left;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+.msg_sent .fileName{
+  color: black
+}
+
+.msg_rcv {
+  border: 1px solid #f2f3f6;
+  color: #323643;
+  background-color: #f2f3f6;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+  border-bottom-left-radius: 0px !important;
+  text-align: left;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+.ant-input-affix-wrapper,
+.ant-input-affix-wrapper-lg {
+  border-color: none !important;
+  border-right-width: 0px !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+  border: none !important;
+  border-color: #971a1a !important;
+  border-right-width: 2px !important;
+  z-index: 9;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.ant-input:hover {
+  border-color: #f3c407 !important;
+  border-right-width: 1px !important;
+  border: none !important;
+  border-color: #971a1a !important;
+  border-right-width: 2px !important;
+  z-index: 9;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.ant-modal-wrap {
+  background-color: rgba(0, 0, 0, 0.3);
+  background: linear-gradient(to bottom, #202020, #202020);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #0000ee;
+  position: relative;
+  bottom: 0;
+  overflow: none;
+  outline: 0;
+  /* -webkit-overflow-scrolling: touch; */
+}
+
+.msg_flex {
+  display: flex;
+  padding: 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid #02b100 transparent;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+/* .msg_flex::-webkit-scrollbar {
+  display: none;
+} */
+
+#no_border {
+  border: 1px solid #f2f3f6;
+  color: #323643;
+  background-color: #f2f3f6;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+.chatSection {
+  border-radius: 6px;
+  background-color: white;
+  height: 65vh !important;
+  position: absolute;
+  top: 0px;
+  right: 350px;
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-height: 500px){
+  .chatSection {
+    height: 45vh !important;
+  }
+}
+
+@media screen and (min-height: 500px) and (max-height: 600px){
+  .chatSection {
+    height: 50vh !important;
+  }
+}
+
+@media screen and (min-height: 600px) and (max-height: 700px){
+  .chatSection {
+    height: 55vh !important;
+  }
+}
+
+.ant-input-affix-wrapper {
+  border-radius: 30px 0 0 30px !important;
+}
+
+.ant-input-search-button {
+  background: white !important;
+  border-radius: 0px 30px 30px 0 !important;
+  border-color: #d9d9d9 !important;
+  border-left: 0px !important;
+}
+.helperSec2 {
+  width: 25% !important;
+  border: 0px solid #ced4da !important;
+  border-radius: 10px !important;
+}
+.helperSec {
+  width: 20% !important;
+  border: 0px solid #ced4da !important;
+  border-radius: 10px !important;
+}
+.mobilescreencameraicon {
+  display: none !important;
+}
+.profilewomen {
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+}
+
+/* ...................................window..and..Laptop-max-width.................................... */
+@media only screen and (max-width: 1920px) {
+  .textbarheader {
+    width: 15% !important;
+  }
+  .txtvideocallaccept {
+    font-size: 22px !important;
+  }
+  .TextMarginBottom {
+    margin-bottom: 15px !important;
+  }
+  .Sceondmobilescreen {
+    display: inline !important;
+  }
+  .profilewomentop {
+    margin-top: 50px !important;
+  }
+  .me {
+    bottom: 100px !important;
+  }
+  .tasktxt {
+    margin-top: 340px !important;
+  }
+  .textfontsize {
+    font-size: 22px !important;
+  }
+  .Secondtextstyle1,
+  .Secondtextstyle2,
+  .Secondtextstyle3,
+  .Secondtextstyle4,
+  .Secondtextstyle5,
+  .Secondtextstyle6,
+  .Secondtextstyle7,
+  .Secondtextstyle8 {
+    font-size: 20px !important;
+  }
+}
+@media only screen and (max-width: 1700px) {
+
+  /* .logoimage {
+    display: inline !important;
+  } */
+  .me {
+    margin-bottom: 14px !important;
+  }
+  .footerbottom {
+    margin-bottom: 10px !important;
+  }
+
+  .footerbottom2 {
+    margin-top: 10px !important;
+  }
+
+  .TextMarginBottom {
+    margin-bottom: 4px !important;
+  }
+  .txtvideocallaccept {
+    font-size: 22px !important;
+  }
+  .Sceondmobilescreen {
+    display: inline !important;
+  }
+  .Sceondmobilescreenblock {
+    /* display: none !important; */
+  }
+  .Secondtextstyle1 {
+    display: inline !important;
+  }
+  .profilewomentop {
+    margin-top: 50px !important;
+  }
+  .tasktxt {
+    margin-top: 120px !important;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  .Sceondmobilescreen {
+    display: inline !important;
+  }
+
+  .me {
+    bottom: 100px !important;
+    right: 20px !important;
+  }
+  .tasktxt {
+    margin-top: 130px !important;
+  }
+  .helperSec2 {
+    width: 26% !important;
+  }
+  .Secondtextstyle1,
+  .Secondtextstyle2,
+  .Secondtextstyle3,
+  .Secondtextstyle4,
+  .Secondtextstyle5,
+  .Secondtextstyle6,
+  .Secondtextstyle7,
+  .Secondtextstyle8 {
+    font-size: 18px !important;
+  }
+  .profilewomentop {
+    margin-top: 70px !important;
+  }
+}
+@media only screen and (max-width: 1640px) {
+  .helperSec2 {
+    width: 18% !important;
+    margin-top: 0px !important;
+  }
+  .helperSec {
+    width: 18% !important;
+  }
+  .tasktxt {
+    margin-top: 50px !important;
+  }
+  .logowidth {
+    margin-top: 0px !important;
+  }
+  .Secondtextstyle1,
+  .Secondtextstyle2,
+  .Secondtextstyle3,
+  .Secondtextstyle4,
+  .Secondtextstyle5,
+  .Secondtextstyle6,
+  .Secondtextstyle7,
+  .Secondtextstyle8 {
+    font-size: 11px !important;
+  }
+  .profilewomentop {
+    margin-top: 50px !important;
+  }
+  .TextMarginBottom {
+    margin-bottom: -3px !important;
+  }
+}
+@media only screen and (max-width: 1536px) {
+  .profilewomentop {
+    margin-top: 40px !important;
+  }
+  .logowidth {
+    margin-top: 5px !important;
+  }
+  .helperSec2 {
+    width: 20% !important;
+    margin-top: 0px !important;
+  }
+  .Secondtextstyle1,
+  .Secondtextstyle2,
+  .Secondtextstyle3,
+  .Secondtextstyle4,
+  .Secondtextstyle5,
+  .Secondtextstyle6,
+  .Secondtextstyle7,
+  .Secondtextstyle8 {
+    font-size: 12px !important;
+  }
+
+  .me {
+    bottom: 80px !important;
+    right: 20px !important;
+  }
+
+  .textfontsize {
+    font-size: 22px !important;
+  }
+  .helperSec {
+    width: 18% !important;
+  }
+  .tasktxt {
+    margin-top: 50px !important;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .Sceondmobilescreen {
+    display: inline !important;
+  }
+
+  .profilewomentop {
+    margin-top: 40px !important;
+  }
+
+  .me {
+    bottom: 100px !important;
+    right: 40px !important;
+  }
+  .helperSec {
+    width: 18% !important;
+  }
+  .tasktxt {
+    margin-top: 50px !important;
+  }
+
+  .textfontsize {
+    font-size: 22px !important;
+  }
+  .helperSec2 {
+    width: 21% !important;
+  }
+  .Secondtextstyle1,
+  .Secondtextstyle2,
+  .Secondtextstyle3,
+  .Secondtextstyle4,
+  .Secondtextstyle5,
+  .Secondtextstyle6,
+  .Secondtextstyle7,
+  .Secondtextstyle8 {
+    font-size: 12px !important;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .helperSec {
+    width: 20% !important;
+  }
+  .tasktxt {
+    margin-top: 60px !important;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .textbarheader {
+    width: 15% !important;
+  }
+  .txtvideocallaccept {
+    font-size: 22px !important;
+  }
+  .TextMarginBottom {
+    margin-bottom: 0px !important;
+  }
+  .footerbottom2 {
+    bottom: 0px !important;
+  }
+  .helperSec2 {
+    width: 22% !important;
+  }
+  .Secondtextstyle1,
+  .Secondtextstyle2,
+  .Secondtextstyle3,
+  .Secondtextstyle4,
+  .Secondtextstyle5,
+  .Secondtextstyle6,
+  .Secondtextstyle7,
+  .Secondtextstyle8 {
+    font-size: 12px !important;
+  }
+  .Sceondmobilescreen {
+    display: inline !important;
+  }
+
+  .profilewomentop {
+    margin-top: 40px !important;
+  }
+
+  .me {
+    bottom: 80px !important;
+    right: 20px !important;
+  }
+  .helperSec {
+    width: 20% !important;
+  }
+  .tasktxt {
+    margin-top: 60px !important;
+  }
+}
+@media only screen and (max-width: 1360px) {
+  .TextMarginBottom {
+    margin-bottom: -4px !important;
+  }
+}
+@media only screen and (max-width: 1358px) {
+  .TextMarginBottom {
+    margin-bottom: -4px !important;
+  }
+}
+@media only screen and (max-width: 1350px) {
+  .TextMarginBottom {
+    margin-bottom: 6px !important;
+  }
+}
+@media only screen and (max-width: 1282px) {
+  .textbarheader {
+    width: 18% !important;
+  }
+  .txtvideocallaccept {
+    font-size: 20px !important;
+  }
+  .TextMarginBottom {
+    margin-bottom: -4px !important;
+  }
+  .Sceondmobilescreen {
+    display: inline !important;
+  }
+  .profilewomentop {
+    margin-top: 20px !important;
+  }
+
+  .me {
+    bottom: 82px !important;
+    right: 10px !important;
+  }
+  .tasktxt {
+    margin-top: 80px !important;
+  }
+  .helperSec2 {
+    width: 23% !important;
+  }
+  .Secondtextstyle1,
+  .Secondtextstyle2,
+  .Secondtextstyle3,
+  .Secondtextstyle4,
+  .Secondtextstyle5,
+  .Secondtextstyle6,
+  .Secondtextstyle7,
+  .Secondtextstyle8 {
+    font-size: 12px !important;
+  }
+}
+/* ..........................................end.................................................... */
+
+/* ...................................Tablets..max-width............................................ */
+@media only screen and (max-width: 1280px) {
+  .textbarheader {
+    width: 20% !important;
+  }
+  .txtvideocallaccept {
+    font-size: 22px !important;
+  }
+  .helperSec2 {
+    width: 32% !important;
+  }
+  .Sceondmobilescreen {
+    display: inline !important;
+  }
+  .profilewomentop {
+    margin-top: 40px !important;
+  }
+  .me {
+    bottom: 80px !important;
+  }
+  .helperSec {
+    width: 24% !important;
+  }
+  .tasktxt {
+    margin-top: 30px !important;
+  }
+  .TextMarginBottom {
+    margin-bottom: -2px !important;
+  }
+  .txtIncomingcall {
+    font-size: 18px !important;
+  }
+}
+@media only screen and (max-width: 1274px) {
+  .helperSec2 {
+    width: 23% !important;
+  }
+  .Secondtextstyle1,
+  .Secondtextstyle2,
+  .Secondtextstyle3,
+  .Secondtextstyle4,
+  .Secondtextstyle5,
+  .Secondtextstyle6,
+  .Secondtextstyle7,
+  .Secondtextstyle8 {
+    font-size: 12px !important;
+  }
+  .profilewomentop {
+    margin-top: 20px !important;
+  }
+}
+@media only screen and (max-width: 1270px) {
+  .helperSec2 {
+    width: 23% !important;
+  }
+  .Secondtextstyle1,
+  .Secondtextstyle2,
+  .Secondtextstyle3,
+  .Secondtextstyle4,
+  .Secondtextstyle5,
+  .Secondtextstyle6,
+  .Secondtextstyle7,
+  .Secondtextstyle8 {
+    font-size: 12px !important;
+  }
+  .profilewomentop {
+    margin-top: 20px !important;
+  }
+  .TextMarginBottom {
+    margin-bottom: -4px !important;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .TextMarginBottom {
+    margin-bottom: 6px !important;
+  }
+}
+@media only screen and (max-width: 1230px) {
+  .helperSec2 {
+    width: 30% !important;
+  }
+  .tasktxt {
+    margin-top: 25px !important;
+  }
+  .Secondtextstyle1,
+  .Secondtextstyle2,
+  .Secondtextstyle3,
+  .Secondtextstyle4,
+  .Secondtextstyle5,
+  .Secondtextstyle6,
+  .Secondtextstyle7,
+  .Secondtextstyle8 {
+    font-size: 12px !important;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .helperSec {
+    width: 30% !important;
+  }
+  .tasktxt {
+    margin-top: 60px !important;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .logowidth {
+    margin-top: 0px !important;
+  }
+  .helperSec2 {
+    width: 30% !important;
+  }
+  .Secondtextstyle1,
+  .Secondtextstyle2,
+  .Secondtextstyle3,
+  .Secondtextstyle4,
+  .Secondtextstyle5,
+  .Secondtextstyle6,
+  .Secondtextstyle7,
+  .Secondtextstyle8 {
+    font-size: 12px !important;
+  }
+  .profilewomentop {
+    margin-top: 20px !important;
+  }
+}
+@media only screen and (max-width: 962px) {
+  .textbarheader {
+    width: 30% !important;
+  }
+  .txtvideocallaccept {
+    font-size: 22px !important;
+  }
+  .footerbottom2 {
+    margin-bottom: 0px !important;
+  }
+  .TextMarginBottom {
+    margin-bottom: 8px !important;
+  }
+  .helperSec {
+    width: 32% !important;
+  }
+  .helperSec2 {
+    width: 32% !important;
+    margin-top: 0px !important;
+  }
+  .logowidth {
+    margin-top: 0px !important;
+  }
+  .Secondtextstyle1,
+  .Secondtextstyle2,
+  .Secondtextstyle3,
+  .Secondtextstyle4,
+  .Secondtextstyle5,
+  .Secondtextstyle6,
+  .Secondtextstyle7,
+  .Secondtextstyle8 {
+    font-size: 12px !important;
+  }
+  .Sceondmobilescreen {
+    display: inline !important;
+  }
+
+  .profilewomentop {
+    margin-top: 20px !important;
+  }
+  .incomingcall {
+    margin-top: 0px !important;
+  }
+  .me {
+    bottom: 80px !important;
+  }
+  .tasktxt {
+    margin-top: 70px !important;
+  }
+  .txtIncomingcall {
+    font-size: 15px !important;
+  }
+}
+@media only screen and (max-width: 810px) {
+  .textbarheader {
+    width: 30% !important;
+  }
+  .txtvideocallaccept {
+    font-size: 22px !important;
+  }
+  .TextMarginBottom {
+    /* margin-bottom: 12px !important; */
+  }
+  .helperSec {
+    width: 40% !important;
+  }
+  .tasktxt {
+    margin-top: 60px !important;
+  }
+  .helperSec2 {
+    width: 35% !important;
+  }
+  .Secondtextstyle1,
+  .Secondtextstyle2,
+  .Secondtextstyle3,
+  .Secondtextstyle4,
+  .Secondtextstyle5,
+  .Secondtextstyle6,
+  .Secondtextstyle7,
+  .Secondtextstyle8 {
+    font-size: 11px !important;
+  }
+  .Sceondmobilescreen {
+    display: inline !important;
+  }
+  .profilewomentop {
+    margin-top: 20px !important;
+  }
+  .incomingcall {
+    margin-top: 0px !important;
+  }
+  .me {
+    bottom: 80px !important;
+  }
+  .txtIncomingcall {
+    font-size: 22px !important;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .textbarheader {
+    width: 30% !important;
+  }
+  .txtvideocallaccept {
+    font-size: 22px !important;
+  }
+  .TextMarginBottom {
+    /* margin-bottom: 30px !important; */
+  }
+  .Sceondmobilescreen {
+    display: inline !important;
+  }
+  .profilewomentop {
+    margin-top: 10px !important;
+  }
+  .me {
+    bottom: 100px !important;
+  }
+  .txtIncomingcall {
+    font-size: 22px !important;
+  }
+  .logowidth {
+    margin-top: 0px !important;
+  }
+  .helperSec {
+    width: 38% !important;
+  }
+  .tasktxt {
+    margin-top: 40px !important;
+  }
+  .helperSec2 {
+    width: 40% !important;
+  }
+  .Secondtextstyle1,
+  .Secondtextstyle2,
+  .Secondtextstyle3,
+  .Secondtextstyle4,
+  .Secondtextstyle5,
+  .Secondtextstyle6,
+  .Secondtextstyle7,
+  .Secondtextstyle8 {
+    font-size: 12px !important;
+  }
+}
+@media only screen and (max-width: 785px) {
+  .helperSec2 {
+    width: 38% !important;
+  }
+  .Secondtextstyle1,
+  .Secondtextstyle2,
+  .Secondtextstyle3,
+  .Secondtextstyle4,
+  .Secondtextstyle5,
+  .Secondtextstyle6,
+  .Secondtextstyle7,
+  .Secondtextstyle8 {
+    font-size: 12px !important;
+  }
+  .profilewomentop {
+    margin-top: 20px !important;
+  }
+}
+@media only screen and (max-width: 780px) {
+  .helperSec2 {
+    width: 38% !important;
+  }
+  .Secondtextstyle1,
+  .Secondtextstyle2,
+  .Secondtextstyle3,
+  .Secondtextstyle4,
+  .Secondtextstyle5,
+  .Secondtextstyle6,
+  .Secondtextstyle7,
+  .Secondtextstyle8 {
+    font-size: 12px !important;
+  }
+  .profilewomentop {
+    margin-top: 20px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .textbarheader {
+    width: 30% !important;
+  }
+  .txtvideocallaccept {
+    font-size: 22px !important;
+  }
+  .TextMarginBottom {
+    /* margin-bottom: 12px !important; */
+  }
+  .helperSec {
+    width: 38% !important;
+  }
+  .tasktxt {
+    margin-top: 40px !important;
+  }
+  .helperSec2 {
+    width: 40% !important;
+  }
+  .Secondtextstyle1,
+  .Secondtextstyle2,
+  .Secondtextstyle3,
+  .Secondtextstyle4,
+  .Secondtextstyle5,
+  .Secondtextstyle6,
+  .Secondtextstyle7,
+  .Secondtextstyle8 {
+    font-size: 12px !important;
+  }
+  .Sceondmobilescreen {
+    display: inline !important;
+  }
+
+  .profilewomentop {
+    margin-top: 20px !important;
+  }
+  .me {
+    bottom: 90px !important;
+  }
+  .txtIncomingcall {
+    font-size: 18px !important;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .helperSec {
+    width: 45% !important;
+  }
+  .tasktxt {
+    margin-top: 40px !important;
+  }
+}
+@media only screen and (max-width: 601px) {
+  .textbarheader {
+    width: 30% !important;
+  }
+  .txtvideocallaccept {
+    font-size: 22px !important;
+  }
+  .TextMarginBottom {
+    margin-bottom: 0px !important;
+  }
+  .helperSec {
+    width: 45% !important;
+  }
+  .tasktxt {
+    margin-top: 40px !important;
+  }
+  .Sceondmobilescreen {
+    display: inline !important;
+  }
+
+  .profilewomentop {
+    margin-top: 20px !important;
+  }
+  .me {
+    bottom: 90px !important;
+  }
+
+  .txtIncomingcall {
+    font-size: 18px !important;
+  }
+  .helperSec2 {
+    width: 50% !important;
+  }
+  .Secondtextstyle1,
+  .Secondtextstyle2,
+  .Secondtextstyle3,
+  .Secondtextstyle4,
+  .Secondtextstyle5,
+  .Secondtextstyle6,
+  .Secondtextstyle7,
+  .Secondtextstyle8 {
+    font-size: 12px !important;
+  }
+}
+
+/* ..........................................end.................................................... */
+
+/* ...................................Mobile-screens..max-width...................................... */
+@media only screen and (max-width: 575px) {
+  .mobilescreencameraicon {
+    display: inline !important;
+  }
+  .chatSection {
+    display: block;
+    border-radius: 40px 40px 0 0;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+  }
+  .profilewomentop {
+    margin-top: 30px !important;
+  }
+  .Sceondmobilescreenblock {
+    /* display: none !important; */
+  }
+  .Secondtextstyle1 {
+    display: inline !important;
+  }
+  /* .logoimage {
+    display: inline !important;
+  } */
+  .me {
+    bottom: 86px !important;
+    right: 12px !important;
+  }
+  .Sceondmobilescreen {
+    display: inline !important;
+    width: 100% !important;
+  }
+  .mobilescreen {
+    display: inline !important;
+    width: 95% !important;
+    background-color: rgba(26, 126, 25) !important;
+  }
+  .TextMarginBottom {
+    margin-bottom: 0px !important;
+    width: 100% !important;
+  }
+  .mainbackgroundcolor {
+    width: 100% !important;
+    background-color: rgba(26, 126, 25) !important;
+  }
+  .footerbottom {
+    margin-bottom: 0px !important;
+    width: 100% !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border: 1px solid #8bf88a !important;
+  }
+
+  .footerbottom2 {
+    margin-bottom: 0px !important;
+  }
+
+  .taskbar {
+    width: 100% !important;
+  }
+
+  .textbarheader {
+    width: 50% !important;
+  }
+
+  .helperSec {
+    width: 85% !important;
+    display: none !important;
+  }
+
+  .helperSec1 {
+    width: 87% !important;
+    border: 2px solid #8bf88a !important;
+    border-radius: 15px !important;
+  }
+
+  .tasktxt {
+    margin-top: 4px !important;
+  }
+}
+@media only screen and (max-width: 488px) {
+  .logowidth {
+    width: 66% !important;
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+  }
+  .helperSec2 {
+    width: 50% !important;
+  }
+  .Secondtextstyle1,
+  .Secondtextstyle2,
+  .Secondtextstyle3,
+  .Secondtextstyle4,
+  .Secondtextstyle5,
+  .Secondtextstyle6,
+  .Secondtextstyle7,
+  .Secondtextstyle8 {
+    font-size: 10px !important;
+  }
+  .profilewomentop {
+    margin-top: 20px !important;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .logowidth {
+    width: 66% !important;
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+  }
+}
+@media only screen and (max-width: 412px) {
+  .logowidth {
+    width: 68% !important;
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .logowidth {
+    width: 68% !important;
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .logowidth {
+    width: 70% !important;
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+  }
+  .Sceondmobilescreen {
+    display: inline !important;
+    width: 100% !important;
+  }
+  /* .logoimage {
+    display: inline !important;
+  } */
+  .helperSec1 {
+    width: 88% !important;
+    border: 2px solid #8bf88a !important;
+    border-radius: 15px !important;
+  }
+  .profilewomentop {
+    margin-top: 10px !important;
+  }
+  .Secondtextstyle1 {
+    margin-top: 0px !important;
+    width: 100% !important;
+  }
+  .Secondtextstyle2 {
+    margin-top: 0px !important;
+    width: 60% !important;
+  }
+  .Secondtextstyle3 {
+    margin-top: 0px !important;
+    width: 100% !important;
+  }
+  .Secondtextstyle4 {
+    margin-top: 0px !important;
+    width: 60% !important;
+  }
+  .Secondtextstyle5 {
+    margin-top: 0px !important;
+    width: 100% !important;
+  }
+  .Secondtextstyle6 {
+    margin-top: 0px !important;
+    width: 60% !important;
+  }
+  .Secondtextstyle7 {
+    margin-top: 0px !important;
+    width: 100% !important;
+  }
+  .Secondtextstyle8 {
+    margin-top: 0px !important;
+    width: 100% !important;
+  }
+  .video-avatar-containerOne {
+    min-height: 100px !important;
+  }
+  .iconsDiv > div {
+    --size: 3rem;
+  }
+
+  .icons {
+    font-size: 1rem;
+  }
+
+  .icons > * {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+
+.settingsModel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.p-50 {
+  padding: 50px;
+}
+
+.h-400 {
+  height: 400px;
+}
+
+.microphone-canvas{
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.bg-danger{
+  background-color: red;
+  color: black;
+}
+
+.bg-success{
+  background-color: green;
+  color: white;
+}
+
+.ms-20 {
+  margin-left: 20px;
+}
+
+.my-20 {
+  margin-left: 20px;
+}
+
+.m-10 {
+  margin: 10px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}

@@ -1,0 +1,24 @@
+openapi: 3.1.0
+
+info:
+  title: Help So Easy
+  description: Help-so-easy Swagger APIs.
+  version: 2.0
+
+servers:
+  - url: http://localhost:5000/api/v1/
+    description: local server
+
+
+
+paths:
+  /auth/sign-up:  # this is in the auth.yaml file.
+  /auth/login:    # this is in the auth.yaml file.
+  /auth/verify_email:    # this is in the auth.yaml file.
+      
+           
+
+
+
+      
+      

@@ -1,0 +1,100 @@
+.image-set{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.img-style{
+    height: 100vh
+}
+.auth-form{
+    background-color: #FAFAFA;
+    vertical-align: middle;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.welcome-txt{
+    font-weight: bold;
+    font-size: 45;
+}
+.create-txt{
+    font-size: 22;
+}
+.input-txt{
+    font-size: 18;
+    color: #1967D2;
+}
+
+.input-style{
+    border: 1px solid #CBCBCB;
+    padding: 5px 0px;
+    width: 100%;
+    font-weight: 500;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.btn-style{
+    padding: 10px 0px;
+    width: 100%;
+    background-color: #1967D2;
+    color: #FFFFFF;
+    border: 1px solid #1967D2;
+    border-radius: 10px;
+    font-size: 20;
+    font-weight: 500;
+}
+.signup-with-txt{
+    font-size: 16;
+    font-weight: 500;
+    color: #008BFF;
+    
+}
+.signup-with-txt-set{
+    text-align: center;
+    margin-top: 3px;
+}
+.left-line-set{
+    padding-right: 0px;
+}
+.right-line-set{
+    padding-left: 0px;
+}
+
+.icon-set{
+    text-align: center;
+    
+}
+
+.apple-google-icon{
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px #E9E9E9;
+    margin-left: 10px;
+}
+
+.already-txt-set{
+    text-align: center;
+}
+.already-txt{
+    font-size: 16;
+    color: #545454;
+}
+.login-txt{
+    font-size: 16;
+    color: #008BFF;
+    cursor: pointer;
+}
+
+.remember-parent-div{
+    display: flex;
+    justify-content: space-between;
+}
+.remember-txt{
+    font-size: 16;
+    color: #707070;
+    margin-left: 5px;
+}
+
+.forget-txt{
+    font-size: 16;
+    color: #0275D8;
+}
